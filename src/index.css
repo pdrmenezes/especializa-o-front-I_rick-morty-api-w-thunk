@@ -1,0 +1,22 @@
+:root {
+  --rosa: rgb(255, 67, 108);
+  --azulzinho: rgb(142, 211, 254);
+  --rosafilter: invert(45%) sepia(91%) saturate(3330%) hue-rotate(322deg)
+    brightness(100%) contrast(103%);
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  letter-spacing: 0.1ch;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: whitesmoke;
+  color: black;
+}
+
+code {
+  font-family: "Inter", source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

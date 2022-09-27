@@ -1,0 +1,35 @@
+.card-personagem {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-personagem > img {
+  width: 300px;
+  height: 300px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border: 1px solid #d0d0d0;
+}
+
+.card-personagem > div.card-personagem-body {
+  padding: 10px;
+  border: 1px solid #d0d0d0;
+  border-top: 0;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-personagem-body > img {
+  filter: var(--rosafilter);
+  cursor: pointer;
+  transition: all ease 0.1s;
+}
+
+.card-personagem-body > img:hover {
+  scale: 1.05;
+}

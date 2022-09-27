@@ -1,0 +1,48 @@
+.filtros {
+  display: grid;
+  grid-template-columns: 1.5fr 4fr 0.8fr 0.8fr;
+  margin-bottom: 20px;
+  gap: 0.8rem;
+}
+
+.filtro {
+  display: flex;
+  flex-direction: column;
+}
+
+.filtro label {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.filter-box {
+  display: flex;
+  flex-grow: 1;
+}
+
+.filter-box select {
+  padding: 15px 20px;
+  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+  width: 100%;
+}
+.filter-box input[type="search"] {
+  padding: 15px 15px;
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #d0d0d0;
+}
+
+#clear-button {
+  background-color: var(--rosa);
+  color: whitesmoke;
+}
+
+.filtros button {
+  padding: 15px 20px;
+  height: 66%;
+  align-self: flex-end;
+  color: black;
+  background-color: mediumspringgreen;
+}
