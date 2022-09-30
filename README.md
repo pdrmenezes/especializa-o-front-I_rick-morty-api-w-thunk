@@ -72,7 +72,7 @@ Instalado as dependências
 
 Podemos iniciar nossa aplicação com o comando
 
-`yarn run dev`
+`yarn dev`
 
 ### Dependencias
 
